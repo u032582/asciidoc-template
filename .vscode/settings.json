@@ -1,0 +1,8 @@
+{
+    "asciidoc.asciidoctorpdf_command": "asciidoctor-pdf -a scripts=cjk -r asciidoctor-diagram -a pdf-theme=default-with-fallback-font",
+    "asciidoc.use_asciidoctorpdf": true,
+    "asciidoc.asciidoctor_command": "asciidoctor -a scripts=cjk -r asciidoctor-diagram -a diagram-cachedir=/tmp/adoc",
+    "asciidoc.preview.lineHeight": 1,
+    "asciidoc.preview.linkify": true,
+    "asciidoc.use_asciidoctor_js": false
+}
