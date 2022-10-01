@@ -12,9 +12,12 @@ ifndef::imagesdir[:imagesdir: {adoc-root}/images]
 :sectlink:
 :sectanchors:
 
-== アーキテクチャ
 
-[plantuml,test/example-sequence,svg]
+== フローチャート
+image::sub/sample.svg[]
+
+== シーケンス図
+[plantuml,sub/example-sequence,svg]
 ----
 Alice -> Bob: Authentication Request
 
