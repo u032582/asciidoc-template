@@ -14,7 +14,7 @@ ifndef::imagesdir[:imagesdir: {adoc-root}/images]
 
 
 == フローチャート
-image::sub/sample.svg[]
+image::sub/sample.png[scaledwidth=30%,width=20%]
 
 == シーケンス図
 [plantuml,sub/example-sequence,svg]
