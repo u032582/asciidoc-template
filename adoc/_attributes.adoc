@@ -1,7 +1,7 @@
 :revnumber: {project-version}
 ifdef::adoc-root[]
-ifndef::sourcedir[:sourcedir: {adoc-root}/../src/main/java]
-ifndef::imagesdir[:imagesdir: {adoc-root}/images]
+:sourcedir: {adoc-root}/../src/main/java
+:imagesdir: {adoc-root}/images
 :stylesdir: {adoc-root}/css
 endif::adoc-root[]
 :stylesheet: asciidoctor.css
@@ -16,3 +16,5 @@ endif::adoc-root[]
 :sectanchors:
 :data-uri:
 :source-highlighter: coderay
+:icons: font
+:experimental:

@@ -7,6 +7,15 @@ endif::adoc-root[]
 == フローチャート
 image::sub/sample.svg[scaledwidth=30%,width=20%]
 
+
+<<<
+== 改ページ
+PDF改ページは以下
+----
+<<<
+----
+
+
 == シーケンス図
 [plantuml,sub/example-sequence,svg]
 ----
@@ -48,7 +57,7 @@ end
 
 
 == コード
-[source,ruby]
+[source,ruby,linenums]
 ----
 require 'sinatra' // <1>
 
@@ -59,3 +68,17 @@ end
 <1> Library import
 <2> URL mapping
 <3> HTTP response body
+
+
+'''
+
+== admonitions
+
+IMPORTANT: Wolpertingers are known to nest in server racks.
+Enter at your `own risk`.
+
+== icon
+icons.icon:heart[role=red]
+
+To save the file, select menu:File[Save].
+

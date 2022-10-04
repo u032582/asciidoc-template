@@ -563,10 +563,6 @@ ol li ol {
     margin-bottom: 0
 }
 
-dl dt {
-    margin-bottom: .3125em;
-    font-weight: bold
-}
 
 dl dd {
     margin-bottom: 1.25em
@@ -1798,19 +1794,19 @@ ol.lowergreek {
 td.hdlist1,
 td.hdlist2 {
     vertical-align: top;
-    padding: 0 .625em
+    padding: 0.625em
 }
 
 td.hdlist1 {
-    font-weight: bold;
-    padding-bottom: 1.25em
+    font-weight: normal;
+    padding-bottom: 1em;
 }
 dt.hdlist1 {
-	font-size: 1.25em;
-	color: var(--primarycolor)
+	font-size: 1em;
+    font-weight: normal;
 }
-dt.hdlist1:before {
-	content:"■";
+dt.hdlist1:after {
+	content:"：";
 }
 
 .literalblock+.colist,

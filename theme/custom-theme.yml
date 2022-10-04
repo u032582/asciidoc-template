@@ -86,6 +86,8 @@ codespan:
   font_family: M+ 1mn
 menu_caret_content: " <font size=\"1.15em\"><color rgb=\"b12146\">\u203a</color></font> "
 heading:
+  chapter:
+    break-before: auto
   align: left
   font_family: $base_font_family
   font_color: 7a1e1c

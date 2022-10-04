@@ -3,5 +3,7 @@ Doc Writer <hikaru@mokume.io>
 2021-01-27
 :adoc-root: .
 include::{adoc-root}/_attributes.adoc[]
-
+<<<
+include::sub/index.adoc[leveloffset=+1]
+<<<
 include::sub/index.adoc[leveloffset=+1]
