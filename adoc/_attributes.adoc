@@ -1,0 +1,18 @@
+:revnumber: {project-version}
+ifdef::adoc-root[]
+ifndef::sourcedir[:sourcedir: {adoc-root}/../src/main/java]
+ifndef::imagesdir[:imagesdir: {adoc-root}/images]
+:stylesdir: {adoc-root}/css
+endif::adoc-root[]
+:stylesheet: asciidoctor.css
+:revnumber: {project-version}
+:example-caption: 処理
+:table-caption: 表
+:toc: left
+:toclevels: 3
+:toc-title: 目次
+:numbered:
+:sectlink:
+:sectanchors:
+:data-uri:
+:source-highlighter: coderay

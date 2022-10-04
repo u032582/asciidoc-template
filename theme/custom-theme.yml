@@ -171,7 +171,7 @@ quote:
   cite_font_color: 999999
 # code is used for source blocks (perhaps change to source or listing?)
 code:
-  font_color: $base_font_color
+#  font_color: $base_font_color
   font_family: $literal_font_family
   font_size: ceil($base_font_size)
   padding: $code_font_size

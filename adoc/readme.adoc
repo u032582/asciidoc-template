@@ -2,19 +2,6 @@
 Doc Writer <hikaru@mokume.io>
 2021-01-27
 :adoc-root: .
-:revnumber: {project-version}
-:sourcedir: ../src/main/java
-:example-caption: 処理
-:imagesdir: {adoc-root}/images
-:table-caption: 表
-:stylesdir: {adoc-root}/css
-:stylesheet: asciidoctor.css
-:toc: left
-:toclevels: 3
-:toc-title: 目次
-:numbered:
-:sectlink:
-:sectanchors:
-:data-uri:
+include::{adoc-root}/_attributes.adoc[]
 
 include::sub/index.adoc[leveloffset=+1]
