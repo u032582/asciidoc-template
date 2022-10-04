@@ -14,18 +14,18 @@ ifndef::imagesdir[:imagesdir: {adoc-root}/images]
 
 
 == フローチャート
-image::sub/sample.png[scaledwidth=30%,width=20%]
+image::sub/sample.svg[scaledwidth=30%,width=20%]
 
 == シーケンス図
 [plantuml,sub/example-sequence,svg]
 ----
-Alice -> Bob: Authentication Request
+Alice -> Bob: Authentication 
 
 alt successful case
 
     Bob -> Alice: Authentication Accepted
 
-else some kind of failure
+else エラー時
 
     Bob -> Alice: Authentication Failure
     group My own label

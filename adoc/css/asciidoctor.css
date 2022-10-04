@@ -58,7 +58,7 @@ script {
 }
 
 html {
-    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-family: GenShinGothic, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -252,7 +252,7 @@ body {
     color: rgba(0, 0, 0, .8);
     padding: 0;
     margin: 0;
-    font-family: "メイリオ", "Noto Serif", "DejaVu Serif", serif;
+/*    font-family: "メイリオ", "Noto Serif", "DejaVu Serif", serif; */
     font-weight: 400;
     font-style: normal;
     line-height: 1;
@@ -845,7 +845,7 @@ p a>code:hover {
 }
 
 #header>h1:first-child {
-    color: rgba(0, 0, 0, .85);
+/*    color: rgba(0, 0, 0, .85); */
     margin-top: 2.25rem;
     margin-bottom: 0
 }
@@ -2366,13 +2366,9 @@ p.tableblock {
 
 
 /* Text styles */
-body{font-family: "Ubuntu",sans-serif;}
-
-h1,h2,h3,h4,h5{color:var(--primarycolor) !important;font-family:"Ubuntu",sans-serif;}
-h6{color:var(--secondarycolor);font-family: "Ubuntu",sans-serif;}
-.title{color:(--primarycolor) !important;font-family:"Ubuntu",sans-serif;font-style: normal; font-weight: normal;}
-p{font-family: "Ubuntu",sans-serif ! important}
-
+h1,h2,h3,h4,h5{color:var(--primarycolor);}
+h6{color:var(--secondarycolor);}
+.title{color:(--primarycolor);}
 
 /* Table styles */
 th{background-color: var(--tertiarycolor);color:var(--white) !important;}

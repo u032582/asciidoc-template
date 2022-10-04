@@ -36,6 +36,11 @@ font:
       bold: GenShinGothic-Monospace-Bold.ttf
       italic: GenShinGothic-Monospace-Regular.ttf
       bold_italic: GenShinGothic-Monospace-Regular.ttf
+    Helvetica:
+      normal: GenShinGothic-Monospace-Regular.ttf
+      bold: GenShinGothic-Monospace-Bold.ttf
+      italic: GenShinGothic-Monospace-Regular.ttf
+      bold_italic: GenShinGothic-Monospace-Regular.ttf
   fallbacks:
     - M+ 1p Fallback
 page:
@@ -76,7 +81,7 @@ vertical_spacing: $vertical_rhythm
 link:
   font_color: 428bca
 # literal is currently used for inline monospaced in prose and table cells
-literal:
+codespan:
   font_color: b12146
   font_family: M+ 1mn
 menu_caret_content: " <font size=\"1.15em\"><color rgb=\"b12146\">\u203a</color></font> "
@@ -155,7 +160,7 @@ admonition:
   label:
     text_transform: uppercase
     font_style: bold
-blockquote:
+quote:
   font_color: $base_font_color
   font_size: $base_font_size_large
   border_color: $base_border_color
@@ -218,7 +223,7 @@ description_list:
   term_font_style: bold
   term_spacing: $vertical_rhythm / 4
   description_indent: $horizontal_rhythm * 1.25
-outline_list:
+list:
   term_font_style: italic
   indent: $horizontal_rhythm * 1.5
   #marker_font_color: 404040
